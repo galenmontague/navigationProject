@@ -9,7 +9,6 @@ import Contact from "./pages/contact";
 import Counter from "./pages/counter";
 
 
-
 export default class App extends Component {
   render() {
     return (
@@ -18,6 +17,7 @@ export default class App extends Component {
           <div>
             <h1>Galen's Navigation Project</h1>
             <NavigationContainer />
+            <hr/>
             <Switch>
               <Route exact path="/" component={Home} />
               <Route path="/about" component={About} />

@@ -17,8 +17,7 @@ export default class Counter extends React.Component {
     this.state = {
       count: 0
     }
-    // this.handleAdd = this.handleAdd.bind(this)
-    // this.handleSub = this.handleSub.bind(this)
+
     this.handleCount = this.handleCount.bind(this)
   }
   handleCount(num) {
@@ -29,8 +28,8 @@ export default class Counter extends React.Component {
  
   render() {
     return(
-      <div>
-          
+      <div className = 'counter'>
+
         <h3>Counter</h3>
 
         <div>

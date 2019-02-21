@@ -26,3 +26,15 @@ body {
     display: grid;
     justify-items: center;
 }
+
+// added during navigationProject homework
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.counter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
